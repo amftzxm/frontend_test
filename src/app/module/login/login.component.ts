@@ -24,6 +24,6 @@ export class LoginComponent {
   //test function bind with html
    onLoginButtonClick(){
     alert('login processing...');
-    this.router.navigate(['navbar']);
+    this.router.navigate(['home/child-a']);
   }
 }
