@@ -20,9 +20,11 @@ export class LoginComponent {
 
 
   constructor(){
-    this.http.get<any>('https://official-joke-api.appspot.com/random_joke').subscribe((res)=>{
-      console.log(res);
 
-    })
+  }
+
+  //test function bind with html
+   onButtonClick(){
+    alert('test');
   }
 }
