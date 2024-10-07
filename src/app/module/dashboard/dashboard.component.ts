@@ -10,8 +10,4 @@ import { Component } from '@angular/core';
 export class DashboardComponent {
 
   
-    //function for show alert
-    showAlert(){
-      alert('hello from dashboard component!');
-    }
   }
