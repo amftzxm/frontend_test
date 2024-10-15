@@ -23,18 +23,17 @@
         <div class="flex flex-col gap-3">
           <div class="flex flex-col">
             <label for="username">username</label>
-            <input class="h-12 px-3 rounded-xl  border-solid border-2 border-gray-500 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500" id="username" type="text">
+            <input class="h-12 px-3 rounded-xl  border-solid border-2 border-gray-500 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500" id="username" [(ngModel)]="username"  type="text">
           </div>
 
           <div class="flex flex-col">
             <label for="password">password</label>
-            <input class="h-12 px-3  rounded-xl border-solid border-2 border-gray-500 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500" id="password" type="password">
+            <input class="h-12 px-3  rounded-xl border-solid border-2 border-gray-500 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500" [(ngModel)]="password"  id="password" type="password">
           </div>
 
           <button (click)="onLoginButtonClick()" class="bg-[#1451a1] text-white rounded-md py-3">Login</button>
 
         </div>
-
 
       </div>
 
